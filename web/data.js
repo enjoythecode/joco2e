@@ -1,9 +1,17 @@
-var FamilyNames;
-(function (FamilyNames) {
-    FamilyNames[FamilyNames["Larkins"] = 0] = "Larkins";
-    FamilyNames[FamilyNames["Sykes"] = 1] = "Sykes";
-    FamilyNames[FamilyNames["Benyon"] = 2] = "Benyon";
-    FamilyNames[FamilyNames["Hastings"] = 3] = "Hastings";
-    FamilyNames[FamilyNames["Walsh"] = 4] = "Walsh";
-    FamilyNames[FamilyNames["Paxton"] = 5] = "Paxton";
-})(FamilyNames || (FamilyNames = {}));
+"use strict";
+exports.__esModule = true;
+exports.CrownFamily = exports.PaxtonFamily = exports.WalshFamily = exports.HastingsFamily = exports.BenyonFamily = exports.SykesFamily = exports.LarkinsFamily = void 0;
+var LarkinsFamily = { name: "Larkins Family", color: "yellow" };
+exports.LarkinsFamily = LarkinsFamily;
+var SykesFamily = { name: "Sykes Family", color: "purple" };
+exports.SykesFamily = SykesFamily;
+var BenyonFamily = { name: "Benyon Family", color: "pink" };
+exports.BenyonFamily = BenyonFamily;
+var HastingsFamily = { name: "Hastings Family", color: "blue" };
+exports.HastingsFamily = HastingsFamily;
+var WalshFamily = { name: "Walsh Family", color: "green" };
+exports.WalshFamily = WalshFamily;
+var PaxtonFamily = { name: "Paxton Family", color: "mint" };
+exports.PaxtonFamily = PaxtonFamily;
+var CrownFamily = { name: "The Crown", color: "orange" };
+exports.CrownFamily = CrownFamily;
